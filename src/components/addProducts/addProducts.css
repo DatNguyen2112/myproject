@@ -1,0 +1,75 @@
+.no_flex{
+    display: inherit;
+    justify-content: inherit;
+
+}
+
+.addProducts__form {
+    margin-left: 76px;
+}
+
+.addProducts-title__form{
+    margin: 20px 0;
+}
+
+.addProducts__tabs {
+    display: flex;
+    column-gap: 20px;
+}
+
+form.formGroup {
+    width: 50%;
+    margin-top: 20px;
+}
+
+.button__option {
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 60px;
+}
+
+.flexs {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+label {
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.form_control{
+    height: 30px;
+    outline: none;
+}
+
+button.btn.btn_success {
+    border: none;
+    padding: 15px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    background: #495579;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.success-msg{
+  width: 50%;
+  padding: 14px;
+  background-color: #dff0d8;
+  color: #468847;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.error-msg{
+    width: 100%;
+    padding: 14px;
+    background-color: #f0d0d3;
+    color: #df786f;
+}
+

@@ -1,0 +1,76 @@
+.Footer {
+    min-width: 1200px;
+    background-color: #495579;
+    padding: 40px;
+}
+
+.Footer__container {
+    color: #fff;
+    /* color: rgba(0,0,0,.54); */
+    display: flex;
+    min-width: 1200px;
+    justify-content: space-around;
+}
+
+.Footer__advice, .Footer__about {
+    font-size: 15px;
+    line-height: 1.5;
+    
+}
+
+.Footer-title__advice {
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.Footer__item {
+    list-style-type: none;
+    
+}
+
+.Footer__items{
+    display: flex;
+    column-gap: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.Footer__cash {
+    font-size: 15px;
+}
+
+.Footer-list__money {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 15px;
+}
+
+.Footer-list__item {
+    cursor: pointer;
+}
+
+.margin {
+    margin-top: 20px;
+}
+
+.Facebook, .Instagram {
+    font-size: 15px;
+}
+
+.Footer__face, .Footer__insta {
+    display: flex;
+    column-gap: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.Deliveries {
+    background-color: #495579;
+    width: 200px;
+    margin-top: 15px;
+    object-fit: contain;
+}
+

@@ -1,0 +1,197 @@
+.Background {
+    /* background-image: url("https://static.chotot.com/storage/banner/theme_caysinhke_v2.jpeg"); */
+    
+    /* display: flex; */
+}   
+.Sliders {
+    display: flex;   
+    flex-direction: column;
+}
+
+.Sliders__containers{
+    /* width: 1300px; */
+    overflow: hidden;
+    
+}
+
+.Slider__img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.myFilterProducts__box{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    margin: 20px;
+    row-gap: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+}
+
+.myFilterProducts__title {
+    display: flex;
+    justify-content: center;
+    
+}
+
+h2.solid {
+    border: 1px solid #ccc;
+    padding: 25px;
+    font-weight: 200;
+    text-transform: uppercase;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.myFiltureProducts__all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.myFilterProducts.please-wait {
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+}
+
+.product {
+    background-color: #fff;
+    box-shadow: 0px 4px 10px rgb(51 51 51 / 15%);
+    border-radius: 20px ;
+}
+
+.product__img, .product__imgs {
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+}
+
+.product-img{
+    position: relative;
+}
+
+.product__state {
+    position: absolute;
+    left: 0;
+    font-size: 12px;
+    color: #fff;
+    background-color: #000;
+    margin: 10px;
+    padding: 5px 10px;
+}
+
+.fa-heart {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    color: #fff;
+}
+
+.product__time {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    background-color: #000;
+    margin: 10px;
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+.product__img, .product__imgs{
+    
+    cursor: pointer;
+}
+
+.product__imgs {
+    border-radius: 20px 20px 0 0;
+}
+
+.product__content {
+    color: #000;
+}
+
+.product__title {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    line-height: 2.5;
+    font-weight: 700;
+}
+
+.product__states {
+    color: green;
+    font-size: 15px;
+}
+
+.products__info {
+    display: flex;    
+   justify-content: center;
+    padding-bottom: 20px;
+}
+
+.product__cate {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    font-weight: 700;
+}
+
+.product__price span {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btn.btn-danger.btn-md.cart-btn {
+    background-color: #495579;
+    color: #ffff;
+    padding: 15px;
+    text-align: center;
+    font-size: 13px;
+    border-radius: 96px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.Admin__photo{
+    width: 100%;
+}
+
+.Support {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+    background-color: #FFFBEB;
+    z-index: 10;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.fa__icons {
+    display: flex;
+    justify-content: center;
+    margin: 30% auto;
+    font-size: 40px;
+    color: #495579;
+    cursor: pointer;
+}
+
+button.slick-arrow.slick-prev{
+    display: none !important;    
+}
+
+.Content {
+    display: flex;
+    justify-content: center;
+    
+}

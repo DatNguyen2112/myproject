@@ -1,0 +1,75 @@
+
+
+.SignIn__container {
+    background-image: url('../../images/backgroundsigninup.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 603px;
+    max-height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.SignIn__form {
+    background-color: #fff;
+    width: 400px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-right: 250px;
+}
+
+.SignIn__forms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 60px auto;
+    
+}
+
+.SignIn__title{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 20px;
+}
+
+.SignIn__shortcut {
+    padding: 0 15px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.Email, .Password, .User {
+    padding: 5px 5px 5px 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    height: 35px
+}
+
+.Email::placeholder, .Password::placeholder, .User::placeholder {
+    font-size: 15px;
+    color: #ccc;
+}
+
+.Submit {
+    border: none;
+    padding: 10px 10px 10px 15px;
+    background-color: #495579;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.Link__shortcut {
+    color: #495579;
+    cursor: pointer;
+    margin-left: 5px;
+}
